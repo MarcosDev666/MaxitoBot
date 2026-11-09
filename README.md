@@ -12,6 +12,14 @@ python3 -m http.server 8000
 
 No requiere instalación ni compilación. Puede publicarse en cualquier hosting estático, incluido GitHub Pages.
 
+## Estructura
+
+- `index.html`: contenido y estructura del sitio.
+- `src/css/styles.css`: estilos y diseño adaptable.
+- `src/js/app.js`: menú y guía interactiva de primeros pasos.
+
+La guía guarda el progreso en el navegador mediante `localStorage`. Es informativa y no cambia la configuración del bot ni del servidor.
+
 ## Enlaces
 
 - [Servidor de soporte](https://discord.gg/EEcxAtTzzr)
